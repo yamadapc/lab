@@ -2,7 +2,7 @@
 var GitLab = require('gitlab');
 var map = require('lodash/map');
 
-var token = "45FdAs86ZDzH4bX8uAxg";
+var token = "45FdAs86ZDzH4bX8uAxg"; // leaked token was revoked
 
 var gitlab = new GitLab({
   url: 'https://gitlab.com',
