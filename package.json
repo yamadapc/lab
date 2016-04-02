@@ -2,6 +2,7 @@
   "name": "lab",
   "version": "1.0.0",
   "description": "Scripts I use to interact with the GitLab API.",
+  "main": "bin/lab",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/yamadapc/lab#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "gitlab": "^1.5.0",
     "lodash": "^4.7.0"
   }
