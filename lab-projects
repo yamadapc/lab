@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+var GitLab = require('gitlab');
+var map = require('lodash/map');
+
+var token = "45FdAs86ZDzH4bX8uAxg";
+
+var gitlab = new GitLab({
+  url: 'https://gitlab.com',
+  token: token,
+});
+
+var s = gitlab.projects.all(function(projects) {
+  console.log(map(projects, 'path_with_namespace').join('\n'));
+});

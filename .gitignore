@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Created by https://www.gitignore.io/api/d
 
@@ -25,3 +26,5 @@ lab
 docs.json
 __dummy.html
 
+node_modules
+.tern-port

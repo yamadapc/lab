@@ -1,0 +1,22 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "Scripts I use to interact with the GitLab API.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamadapc/lab.git"
+  },
+  "author": "Pedro Tacla Yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadapc/lab/issues"
+  },
+  "homepage": "https://github.com/yamadapc/lab#readme",
+  "dependencies": {
+    "gitlab": "^1.5.0",
+    "lodash": "^4.7.0"
+  }
+}
