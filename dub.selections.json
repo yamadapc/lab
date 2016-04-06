@@ -1,0 +1,9 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"pyjamas": "0.2.1",
+		"bed": "0.0.5",
+		"commander": "1.0.1+commit.3.gfdbb866",
+		"colorize": "1.0.5"
+	}
+}
