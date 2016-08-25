@@ -2,7 +2,7 @@
 var GitLab = require('gitlab');
 var map = require('lodash/map');
 
-var token = "45FdAs86ZDzH4bX8uAxg"; // leaked token was revoked
+var token = process.env.GITLAB_TOKEN;
 
 var gitlab = new GitLab({
   url: 'https://gitlab.com',
@@ -10,5 +10,5 @@ var gitlab = new GitLab({
 });
 
 var s = gitlab.projects.all(function(projects) {
-  console.log(map(projects, 'path_with_namespace').join('\n'));
+  console.log(JSON.stringify(projects, null, 2));
 });
